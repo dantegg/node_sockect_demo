@@ -1,0 +1,26 @@
+{
+  "name": "node_sockect_demo",
+  "version": "1.0.0",
+  "description": "nodejs",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dantegg/node_sockect_demo.git"
+  },
+  "keywords": [
+    "socket"
+  ],
+  "author": "dantegg",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/dantegg/node_sockect_demo/issues"
+  },
+  "homepage": "https://github.com/dantegg/node_sockect_demo#readme",
+  "devDependencies": {
+    "ws": "^1.1.1"
+  }
+}
