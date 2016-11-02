@@ -7,7 +7,7 @@ const wss = ws.createServer({
     port:4000
 })
 
-ws.on('connection',function (ws) {
+wss.on('connection',function (ws) {
     console.log('on connected', ws.upgradeReq.url,ws.upgradeReq.headers)
 
     ws.on('message',function (message) {
